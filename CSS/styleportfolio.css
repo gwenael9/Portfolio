@@ -3,6 +3,10 @@
 
 /* :root{} --> variable, à voir */
 
+:root{
+    --main-color: #0e63a0;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -128,15 +132,17 @@ section {
     letter-spacing: 2px;
 }
 
-/* .navbar {
-    display: none;
-} */
-
 .header li {
     display: inline-flex;
+    justify-content: center;
     align-items: center;
     padding: 0 0.5rem;
 
+}
+
+/* problème car la barre est un peu plus haute que le reste */
+.navbar ul {
+    margin-top: 6px;
 }
 
 .header a {
@@ -147,6 +153,7 @@ a:hover {
     color: #0e63a0;
 }
 
+/* pour le tel */
 .header .right {
     display: flex;
     align-items: center;
@@ -359,6 +366,13 @@ a:hover {
     padding: 1rem;
 }
 
+@media screen and (min-width:750px) {
+    .skills .grid__item {
+    width: 50%;
+    }
+}
+
+
 /* Portfolio */
 
 .portfolio {
@@ -368,12 +382,23 @@ a:hover {
 .portfolio .grid__item {
     max-width: 50%;
     margin-bottom: 0;
+    opacity: 1;    
+    transition: all 1s ease;
+}
+
+.portfolio .grid__item.hide {
+    opacity: 0;
+    max-width: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: all .4s ease;
 }
 
 .portfolio-filters .grid__item {
     max-width: 50%;
     margin-bottom: 0;
 }
+
 
 .portfolio-filters a {
     color: #333;
@@ -403,11 +428,12 @@ a:hover {
 }
 
 @media screen and (min-width:750px) {
-    .portfolio-filters .grid__item {
-        max-width: 25%;
-    }
     .portfolio .grid__item {
         max-width: 33.3333%;
+    }    
+    
+    .portfolio-filters .grid__item {
+        max-width: 25%;
     }
 }
 
@@ -417,6 +443,7 @@ a:hover {
     position: relative;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
     border: 1px solid #eee;
+    overflow: hidden;
 }
 
 .card__inner {
@@ -429,13 +456,14 @@ a:hover {
 }
 
 .card__overlay {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
     z-index: 1;  /* par rapport au sticky */
-    display: none;
+    top: 110%;
+    transition: all .3s;
 }
 
 .card__overlay a {
@@ -446,6 +474,10 @@ a:hover {
     justify-content: center;
     flex: 1;
     height: 100%;
+}
+
+.card:hover .card__overlay {
+    top: 0;
 }
 
 /* Contact */
@@ -467,7 +499,7 @@ a:hover {
 }
 
 .form .btn {
-    background: #333;
+    background: #0e63a0;
     width: auto;
     color: #fff;
     border: none;
@@ -479,14 +511,13 @@ a:hover {
 
 .form .btn:hover {
     cursor: pointer;
-    background: #0e63a0;
 }
 
 /* Footer */
 
 footer {
     color: #eee;
-    background: #333;    
+    background: #0e63a0;    
     text-align: center;
     font-size: 1.4rem;
 }
@@ -523,7 +554,7 @@ footer .socials a {
 
 footer .socials a:hover {
     background-color: #fff;
-    color: #333;
+    color: #0e63a0;
 }
 
 @media screen and (min-width:750px) {
