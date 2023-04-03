@@ -126,11 +126,13 @@ section {
     z-index: 2;
 }
 
-.header .logo {                 /* google font, pour changer la police de mon nom */
+.header .logo {                
     font-size: 2rem;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lilita One', cursive;
     letter-spacing: 2px;
 }
+
+
 
 .header li {
     display: inline-flex;
@@ -149,7 +151,7 @@ section {
     color: black;
 }
 
-a:hover {             
+.navbar a:hover {             
     color: #0e63a0;
 }
 
