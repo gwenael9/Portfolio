@@ -123,6 +123,14 @@
 
 }
 
+.modal .grid__item a {
+    background-color: #0e63a0;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
 @media screen and (min-width: 750px) {
     .modal .grid__item {
         max-width: 50%;
