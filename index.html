@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
+    <!-- logo page -->
+    <link rel="shortcut icon" href="./image/png/logo.png" type="image/x-icon">
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,14 +17,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <script src="./js/anime.js" defer></script>
 
+    <title>Gwenaël Guého</title>
 
 </head>
 
 <body>
+
+    <!-- début header -->
     <header class="header">
         <div class="container d-flex">
-            <div class="logo"> 
-                <a href="">Gwenaël Guého</a> 
+            <div class="logo">
+                <a href="">Gwenaël Guého</a>
             </div>
             <nav class="navbar">
                 <ul class="menu list-unstyled">
@@ -57,40 +61,51 @@
             </div>
         </div>
     </header>
+    <!-- fin header -->
 
-    <section id="hero" class="hero">
-        <div class="container">
-            <div class="grid">
-                <div class="hero__item left">
-                    <!-- <span>Développeur Web</span> -->
-                    <h1 class="title">Bienvenue sur mon site!</h1>
-                    <p>Gwenaël Guého, étudiant développeur web à WebForce3.</p>
-                </div>
-                <div class="hero__item right">
-                    <div class="hero__avatar">
-                        <img src="./image/png/avatar.png" alt="avatar mignon">
+    <!-- début main -->
+    <main>
+        <!-- début héro -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="grid">
+                    <div class="hero__item left">
+                        <!-- <span>Développeur Web</span> -->
+                        <h1 class="title">Bienvenue sur mon site!</h1>
+                        <p>Gwenaël Guého, étudiant développeur web à WebForce3.</p>
+                    </div>
+                    <div class="hero__item right">
+                        <div class="hero__avatar">
+                            <img src="./image/png/avatar.png" alt="avatar mignon">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- fin héro -->
 
-    <section id="about" class="about">
-        <div class="container">
-            <div class="grid">
-                <div class="grid__item section__header">
-                    <h2 class="section__title">A propos</h2>
-                    <p> Actuellement en formation développeur-web/web mobile à WebForce 3 Nantes, je suis à la recherche
-                        d'un stage de deux à six mois à partir de mi-Juin. <br> Etant motivé et impatient de découvrir
-                        l'univers du développement en entreprise, je met toutes mes chances de mon côté en vous
-                        présentant mon site web.</p>
-                    <a href="./docs/CV principal.pdf" class="btn" target="_blank">Mon CV</a>
+        <!-- début about -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__item section__header">
+                        <h2 class="section__title">A propos</h2>
+                        <p> Actuellement en formation développeur-web/web mobile à WebForce 3 Nantes, je suis à la
+                            recherche
+                            d'un stage de deux à six mois à partir de mi-Juin. <br> Etant motivé et impatient de
+                            découvrir
+                            l'univers du développement en entreprise, je met toutes mes chances de mon côté en vous
+                            présentant mon site web.
+                        </p>
+                        <a href="./docs/CV principal.pdf" class="btn" target="_blank">Mon CV</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- fin about -->
 
-    <!-- <section id="services" class="services">
+        <!-- début services -->
+        <!-- <section id="services" class="services">
         <div class="container">
             <div class="section__header">
                 <h2 class="section__title">Mes services</h2>
@@ -178,72 +193,74 @@
             </div>
         </div>
     </section> -->
+        <!-- fin services -->
 
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section__header">
-                <h2 class="section__title">Mes compétences</h2>
-                <p>Etant actuellement en formation, mes compétences sont, de jour en jour, en pleine évolution.</p>
-            </div>
-            <div class="grid">
-                <div class="grid__item">
-                    <h3>Domaine de compétences</h3>
-                    <ul class="list-unstyled">
-                        <li>
-                            <h4>Windows</h4>
-                            <p>Actuellement sous licence Windows.</p>
-                        </li>
-                        <li>
-                            <h4>VS Code</h4>
-                            <p>Maitrîse du fonctionnement de VS Code.</p>
-                        </li>
-                        <li>
-                            <h4>Méthode Agile</h4>
-                            <p>Introduction aux méthodes agiles.</p>
-                        </li>
-                        <li>
-                            <h4>Ui/Ux</h4>
-                            <p>introduction aux bases du design.</p>
-                        </li>
-                        <li>
-                            <h4>Git</h4>
-                            <p>Maîtrise des commandes git.</p>
-                        </li>
-                    </ul>
+        <!-- début skills -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Mes compétences</h2>
+                    <p>Etant actuellement en formation, mes compétences sont, de jour en jour, en pleine évolution.</p>
                 </div>
-                <div class="grid__item">
-                    <h3>Compétences en développement</h3>
-                    <div class="progressbar">
-                        <div class="bar" data-width="80">HTML</div>
+                <div class="grid">
+                    <div class="grid__item">
+                        <h3>Domaine de compétences</h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                <h4>Windows</h4>
+                                <p>Actuellement sous licence Windows.</p>
+                            </li>
+                            <li>
+                                <h4>VS Code</h4>
+                                <p>Maitrîse du fonctionnement de VS Code.</p>
+                            </li>
+                            <li>
+                                <h4>Méthode Agile</h4>
+                                <p>Introduction aux méthodes agiles.</p>
+                            </li>
+                            <li>
+                                <h4>Ui/Ux</h4>
+                                <p>introduction aux bases du design.</p>
+                            </li>
+                            <li>
+                                <h4>Git</h4>
+                                <p>Maîtrise des commandes git.</p>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="progressbar">
-                        <div class="bar" data-width="80">CSS</div>
-                    </div>
-                    <div class="progressbar">
-                        <div class="bar" data-width="50">JAVASCRIPT</div>
-                    </div>
-                    <div class="progressbar">
-                        <div class="bar" data-width="0">PHP</div>
-                    </div>
-                    <div class="progressbar">
-                        <div class="bar" data-width="0">ANGULAR</div>
-                    </div>
-                    <div class="progressbar">
-                        <div class="bar" data-width="45">AJAX</div>
-                    </div>
-                    <div class="progressbar">
-                        <div class="bar" data-width="0">SYMFONY</div>
-                    </div>
-                    <div class="progressbar">
-                        <div class="bar" data-width="0">MVC</div>
-                    </div>
-                    <div class="progressbar">
-                        <div class="bar" data-width="0">MySQL</div>
-                    </div>
-                    <div class="progressbar">
-                        <div class="bar" data-width="0">WORDPRESS</div>
-                    </div>
-                    <!-- <h3>Compétences en conception graphique</h3>
+                    <div class="grid__item">
+                        <h3>Compétences en développement</h3>
+                        <div class="progressbar">
+                            <div class="bar" data-width="80">HTML</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="80">CSS</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="50">JAVASCRIPT</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="0">PHP</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="0">ANGULAR</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="45">AJAX</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="0">SYMFONY</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="0">MVC</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="0">MySQL</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="0">WORDPRESS</div>
+                        </div>
+                        <!-- <h3>Compétences en conception graphique</h3>
                     <div class="progressbar">
                         <div class="bar">PHOTOSHOP</div>
                     </div>
@@ -256,243 +273,261 @@
                     <div class="progressbar">
                         <div class="bar">AFTER EFFECT</div>
                     </div> -->
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- fin skills -->
 
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="section__header">
-                <h2 class="section__title">Portfolio</h2>
-                <p>Voici quelques projets réalisés avec ma formation depuis fin février 2023.</p>
-            </div>
-            <ul class="grid portfolio-filters list-unstyled">
-                <li class="grid__item">
-                    <a href="#" class="active" data-filter="all">Tout les projets</a>
-                </li>
-                <li class="grid__item">
-                    <a href="#" data-filter="web">Développement web</a>
-                </li>
-                <!-- <li class="grid__item">
+        <!-- début portfolio -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Portfolio</h2>
+                    <p>Voici quelques projets réalisés avec ma formation depuis fin février 2023.</p>
+                </div>
+                <ul class="grid portfolio-filters list-unstyled">
+                    <li class="grid__item">
+                        <a href="#" class="active" data-filter="all">Tout les projets</a>
+                    </li>
+                    <li class="grid__item">
+                        <a href="#" data-filter="web">Développement web</a>
+                    </li>
+                    <!-- <li class="grid__item">
                     <a href="#" data-filter="design">Refonte graphique</a>
                 </li>
                 <li class="grid__item">
                     <a href="#" data-filter="app">Applications</a>
                 </li> -->
-            </ul>
+                </ul>
 
-            <div class="grid">
-                <div class="grid__item">
-                    <div class="card" data-category="web">
-                        <img src="./image/png/fond.jpg" width="365" height="243" alt="projet fictif"
-                            class="card__image">
-                        <div class="card__inner">
-                            <h3 class="card__title">Station météo</h3>
-                            <p class="category">Développement Web</p>
+                <div class="grid">
+                    <div class="grid__item">
+                        <div class="card" data-category="web">
+                            <img src="./image/png/fond.jpg" width="365" height="243" alt="projet fictif"
+                                class="card__image">
+                            <div class="card__inner">
+                                <h3 class="card__title">Station météo</h3>
+                                <p class="category">Développement Web</p>
+                            </div>
+                            <div class="card__overlay">
+                                <a href="#" class="card__link" data-id="modal-1">+</a>
+                            </div>
                         </div>
-                        <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-1">+</a>
-                        </div>
-                    </div>
 
-                    <!-- Modal 1 -->
-                    <div class="modal" id="modal-1">
-                        <button class="modal__close">&times;</button>
-                        <div class="modal__content">
-                            <div class="container">
-                                <div class="grid">
-                                    <div class="grid__item">
-                                        <img src="./image/png/fond.jpg" width="560" height="373" alt="projet fictif"
-                                            class="card__image">
-                                        <img src="./image/png/pexels-pixabay-270632.jpg" width="560" height="373"
-                                            alt="projet fictif" class="card__image">
-                                    </div>
-                                    <div class="grid__item">
-                                        <h4 class="modal__titre h2"></h4>
-                                        <p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
-                                                <path
-                                                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
-                                            </svg>
-                                            <i> Année : 2023</i>
-                                        </p>
-                                        <p class="category">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                fill="currentColor" class="bi bi-bookmark-check" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
-                                                <path
-                                                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
-                                            </svg>
-                                            Développement Web
-                                        </p>
-                                        <p> Petit projet d'une station de météo en ligne. Avec un bouton de recherche,
-                                            il est possible de choisir n'importe quelle ville du monde pour voir quel
-                                            temps fait-il.
-                                        </p>
-                                        <h5 class="h3">Informations</h5>
-                                        <p>
-                                            Projet réalisé avec une API de météo obtenu grâce à la fonction fetch.
-                                        </p>
-                                        <h5 class="h3">Technologies</h5>
-                                        <ul>
-                                            <li>HTML</li>
-                                            <li>CSS</li>
-                                            <li>Javascript</li>
-                                        </ul>
-                                        <a href="https://gwenael9.github.io/meteo/" target="_blank">La météo nantaise</a>
+                        <!-- Modal 1 -->
+                        <div class="modal" id="modal-1">
+                            <button class="modal__close">&times;</button>
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img src="./image/png/fond.jpg" width="560" height="373" alt="projet fictif"
+                                                class="card__image">
+                                            <img src="./image/png/pexels-pixabay-270632.jpg" width="560" height="373"
+                                                alt="projet fictif" class="card__image">
+                                        </div>
+                                        <div class="grid__item">
+                                            <h4 class="modal__titre h2"></h4>
+                                            <p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-calendar-check"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                                                    <path
+                                                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+                                                </svg>
+                                                <i> Année : 2023</i>
+                                            </p>
+                                            <p class="category">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-bookmark-check"
+                                                    viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                                                    <path
+                                                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                                                </svg>
+                                                Développement Web
+                                            </p>
+                                            <p> Petit projet d'une station de météo en ligne. Avec un bouton de
+                                                recherche,
+                                                il est possible de choisir n'importe quelle ville du monde pour voir
+                                                quel
+                                                temps fait-il.
+                                            </p>
+                                            <h5 class="h3">Informations</h5>
+                                            <p>
+                                                Projet réalisé avec une API de météo obtenu grâce à la fonction fetch.
+                                            </p>
+                                            <h5 class="h3">Technologies</h5>
+                                            <ul>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                                <li>Javascript</li>
+                                            </ul>
+                                            <a href="https://gwenael9.github.io/meteo/" target="_blank">La météo
+                                                nantaise</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
-                </div>
-
-                <div class="grid__item">
-                    <div class="card" data-category="web">
-                        <img src="./image/png/pexels-freestocksorg-987586.jpg" width="365" height="243" alt="projet fictif"
-                            class="card__image">
-                        <div class="card__inner">
-                            <h3 class="card__title">Clone Netflix</h3>
-                            <p class="category">Développement Web</p>
+                    <div class="grid__item">
+                        <div class="card" data-category="web">
+                            <img src="./image/png/pexels-freestocksorg-987586.jpg" width="365" height="243"
+                                alt="projet fictif" class="card__image">
+                            <div class="card__inner">
+                                <h3 class="card__title">Clone Netflix</h3>
+                                <p class="category">Développement Web</p>
+                            </div>
+                            <div class="card__overlay">
+                                <a href="#" class="card__link" data-id="modal-2">+</a>
+                            </div>
                         </div>
-                        <div class="card__overlay">
-                            <a href="#" class="card__link" data-id="modal-2">+</a>
-                        </div>
-                    </div>
 
-                    <!-- Modal 2 -->
-                    <div class="modal" id="modal-2">
-                        <button class="modal__close">&times;</button>
-                        <div class="modal__content">
-                            <div class="container">
-                                <div class="grid">
-                                    <div class="grid__item">
-                                        <img src="./image/png/pexels-freestocksorg-987586.jpg" width="560" height="373"
-                                            alt="projet fictif" class="card__image">
-                                        <img src="./image/png/pexels-pixabay-270632.jpg" width="560" height="373"
-                                            alt="projet fictif" class="card__image">
-                                    </div>
-                                    <div class="grid__item">
-                                        <h4 class="modal__titre h2">Clone netflix</h4>
-                                        <p>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
-                                                <path
-                                                    d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
-                                                <path
-                                                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
-                                            </svg>
-                                            <i> Année : 2023</i>
-                                        </p>
-                                        <p class="category">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                fill="currentColor" class="bi bi-bookmark-check" viewBox="0 0 16 16">
-                                                <path fill-rule="evenodd"
-                                                    d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
-                                                <path
-                                                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
-                                            </svg>
-                                            Développement Web
-                                        </p>
-                                        <p>
-                                            Représentation de la page d'accueil de Netflix, projet non terminé.
-                                        </p>
+                        <!-- Modal 2 -->
+                        <div class="modal" id="modal-2">
+                            <button class="modal__close">&times;</button>
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img src="./image/png/pexels-freestocksorg-987586.jpg" width="560"
+                                                height="373" alt="projet fictif" class="card__image">
+                                            <img src="./image/png/pexels-pixabay-270632.jpg" width="560" height="373"
+                                                alt="projet fictif" class="card__image">
+                                        </div>
+                                        <div class="grid__item">
+                                            <h4 class="modal__titre h2">Clone netflix</h4>
+                                            <p>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-calendar-check"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                                                    <path
+                                                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+                                                </svg>
+                                                <i> Année : 2023</i>
+                                            </p>
+                                            <p class="category">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-bookmark-check"
+                                                    viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                                                    <path
+                                                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                                                </svg>
+                                                Développement Web
+                                            </p>
+                                            <p>
+                                                Représentation de la page d'accueil de Netflix, projet non terminé.
+                                            </p>
 
-                                        <h5 class="h3">Informations</h5>
-                                        <p>
-                                            Projet de début de formation réalisé avec le framework Bootstrap.
-                                        </p>
+                                            <h5 class="h3">Informations</h5>
+                                            <p>
+                                                Projet de début de formation réalisé avec le framework Bootstrap.
+                                            </p>
 
-                                        <h5 class="h3">Technologies</h5>
-                                        <ul>
-                                            <li>HTML</li>
-                                            <li>CSS</li>
-                                            <li>Bootstrap</li>
-                                        </ul>
-                                        <a href="https://gwenael9.github.io/clone_netflix/" target="_blank">Netflix 2.0</a>
+                                            <h5 class="h3">Technologies</h5>
+                                            <ul>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                                <li>Bootstrap</li>
+                                            </ul>
+                                            <a href="https://gwenael9.github.io/clone_netflix/" target="_blank">Netflix
+                                                2.0</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
                 </div>
-
-            </div>
-        </div>
-
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section__header">
-                <h2 class="section__title">Contact</h2>
-                <p> N'hésitez pas à me contacter pour recevoir plus d'informations. </p>
             </div>
 
+        </section>
+        <!-- fin portfolio -->
 
-            <!-- site formsubmit -->
-            <!-- activer le formulaire avec dgeo dev (ytb) 30e min -->
-            <form action="https://formsubmit.co/236f06f900a767c0dfefdf3a5b6de916" class="form" method="POST">
+        <!-- début contact -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Contact</h2>
+                    <p> N'hésitez pas à me contacter pour recevoir plus d'informations. </p>
+                </div>
 
-                <!-- permet de cacher le captcha qd le client nous envoie un mail -->
-                <input type="hidden" name="_captcha" value="false">
-                <input type="text" name="_honey" style="display:none">
-                <input type="hidden" name="_next" value="https://gwenael9.github.io/Portfolio/thanks.html">
 
-                <label for="firstname">
-                    <input type="text" name="firstname" id="firstname" placeholder="Nom" required>
-                </label>
-                <label for="lastname">
-                    <input type="text" name="lastname" id="lastname" placeholder="Prénom" required>
-                </label>
-                <label for="email">
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-                </label>
-                <textarea name="message" id="message" placeholder="Votre message..."></textarea>
-                <input type="submit" class="btn" value="Envoyer">
-            </form>
-        </div>
-    </section>
+                <!-- site formsubmit -->
+                <!-- activer le formulaire avec dgeo dev (ytb) 30e min -->
+                <form action="https://formsubmit.co/236f06f900a767c0dfefdf3a5b6de916" class="form" method="POST">
 
+                    <!-- permet de cacher le captcha qd le client nous envoie un mail -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_next" value="https://gwenael9.github.io/Portfolio/thanks.html">
+
+                    <label for="firstname">
+                        <input type="text" name="firstname" id="firstname" placeholder="Nom" required>
+                    </label>
+                    <label for="lastname">
+                        <input type="text" name="lastname" id="lastname" placeholder="Prénom" required>
+                    </label>
+                    <label for="email">
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </label>
+                    <textarea name="message" id="message" placeholder="Votre message..."></textarea>
+                    <input type="submit" class="btn" value="Envoyer">
+                </form>
+            </div>
+        </section>
+        <!-- fin contact -->
+
+
+    </main>
+    <!-- fin main -->
+
+    <!-- début footer -->
     <footer>
-        <div class="container">
-            <div class="grid">
-                <div class="grid__item">
-                    <p>Gwenaël Guého</p>
-                </div>
-                <div class="grid__item">
-                    <ul class="socials list-unstyled">
-                        <li>
-                            <a href="https://www.linkedin.com/in/gwenael-gueho-92995a26b/" target="_blank">
-                                <i class="bi bi-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/guepp9" target="_blank">
-                                <i class="bi bi-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/gwenael9" target="_blank">
-                                <i class="bi bi-github"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="grid__item">
-                    <p>Copyright © 2023 Mon portfolio.</p>
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__item">
+                        <p>Gwenaël Guého</p>
+                    </div>
+                    <div class="grid__item">
+                        <ul class="socials list-unstyled">
+                            <li>
+                                <a href="https://www.linkedin.com/in/gwenael-gueho-92995a26b/" target="_blank">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/guepp9" target="_blank">
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/gwenael9" target="_blank">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__item">
+                        <p>Copyright © 2023 Mon portfolio.</p>
+                    </div>
                 </div>
             </div>
-        </div>
     </footer>
-
+    <!-- fin footer -->
 </body>
 
 </html>
