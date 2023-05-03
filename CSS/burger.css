@@ -22,6 +22,7 @@
     nav .menu li {
         display: flex;
         justify-content: center;
+
     }
 
     nav .menu a {

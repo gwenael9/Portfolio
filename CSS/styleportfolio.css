@@ -11,7 +11,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 65%;
 }
 
 body {
@@ -152,6 +152,7 @@ section {
 
 .navbar a:hover {             
     color: var(--main-color);
+
 }
 
 /* pour le tel */
@@ -526,6 +527,22 @@ section {
     cursor: pointer;
 }
 
+.monBoutton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.fleche {
+    width: 50px;
+    height: 50px;
+    margin: 2rem;
+    position: sticky;
+}
+
+   
+
+
 /* Footer */
 
 footer {
@@ -562,6 +579,7 @@ footer .socials a {
     height: 42px;
     display: flex;
     justify-content: center;
+    align-items: center;
     transition: all 1s;
 }
 
@@ -596,3 +614,6 @@ footer .socials a:hover {
         transform: translateX(0);
     }
 }
+
+
+
